@@ -1,0 +1,4 @@
+Bundle 'bling/vim-airline'
+Bundle 'flazz/vim-colorschemes'
+Bundle 'kana/vim-textobj-user'
+Bundle 'nelstrom/vim-textobj-rubyblock'
