@@ -4,3 +4,7 @@ nnoremap \ :Ag<SPACE>
 
 " Colors (depends on flazz/vim-colorschemes plugin)
 colorscheme Monokai
+
+" Use relative line numbers
+set relativenumber
+set nonumber
