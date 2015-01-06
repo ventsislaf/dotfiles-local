@@ -1,4 +1,6 @@
 Bundle 'bling/vim-airline'
+Bundle 'bogado/file-line'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
+Bundle 'wting/rust.vim'
