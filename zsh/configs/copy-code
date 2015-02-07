@@ -1,0 +1,5 @@
+# Copy code to the clipboard using rtf format. It's useful for putting code
+# into a keynote presentation.
+function copy-code() {
+  highlight -O rtf "$1" --font-size 26 --font Inconsolata --src-lang ruby | pbcopy
+}
