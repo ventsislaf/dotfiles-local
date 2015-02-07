@@ -7,4 +7,3 @@ colorscheme Monokai
 
 " Use relative line numbers
 set relativenumber
-set nonumber
