@@ -1,1 +1,3 @@
 bindkey -r jj
+
+ensure_tmux_is_running
