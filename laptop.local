@@ -1,0 +1,12 @@
+#!/bin/sh
+fancy_echo "Updating more Homebrew formulas ..."
+
+brew_tap 'Goles/battery'
+brew_install_or_upgrade 'battery'
+
+brew_install_or_upgrade 'fzf'
+brew_install_or_upgrade 'highlight'
+brew_install_or_upgrade 'htop'
+brew_install_or_upgrade 'shellcheck'
+brew_install_or_upgrade 'tree'
+brew_install_or_upgrade 'youtube-dl'
