@@ -1,4 +1,6 @@
 Bundle 'bogado/file-line'
+Bundle 'christoomey/vim-tmux-navigator'
+Bundle 'christoomey/vim-tmux-runner'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
