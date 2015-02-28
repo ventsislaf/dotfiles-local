@@ -17,3 +17,5 @@ autocmd VimResized * :wincmd =
 " zoom a vim pane, <C-w>= to re-balance
 nnoremap <Leader>- :wincmd _<cr>:wincmd \|<cr>
 nnoremap <Leader>= :wincmd =<cr>
+
+nnoremap <Leader>a :call RunAllSpecs()<CR>
