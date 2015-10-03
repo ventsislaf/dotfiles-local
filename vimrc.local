@@ -5,8 +5,12 @@ nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 nnoremap \ :Ag<SPACE>
 
-" Colors (depends on flazz/vim-colorschemes plugin)
-colorscheme Monokai
+" Use monokai color scheme
+colorscheme monokai
+" highlight NonText guibg=#060606
+" highlight Folded  guibg=#0A0A0A guifg=#9090D0
+
+set timeout timeoutlen=5000 ttimeoutlen=100
 
 " Use relative line numbers
 set relativenumber
@@ -18,4 +22,8 @@ autocmd VimResized * :wincmd =
 nnoremap <Leader>- :wincmd _<cr>:wincmd \|<cr>
 nnoremap <Leader>= :wincmd =<cr>
 
-nnoremap <Leader>a :call RunAllSpecs()<CR>
+" Run elixir tests from vim
+let g:extest_exunit_run_test_cmd = "mix test '%f:%l'"
+nnoremap <Leader>t :ExTestRunFile<CR>
+nnoremap <Leader>s :ExTestRunTest<CR>
+nnoremap <Leader>l :ExTestRunLast<CR>

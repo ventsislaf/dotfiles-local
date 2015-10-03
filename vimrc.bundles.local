@@ -1,7 +1,11 @@
+Bundle 'BjRo/vim-extest'
 Bundle 'bogado/file-line'
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'christoomey/vim-tmux-runner'
-Bundle 'flazz/vim-colorschemes'
+Bundle 'elixir-lang/vim-elixir'
 Bundle 'kana/vim-textobj-user'
 Bundle 'nelstrom/vim-textobj-rubyblock'
-Bundle 'wting/rust.vim'
+Bundle 'flazz/vim-colorschemes'
+
+Bundle 'pangloss/vim-javascript'
+Bundle 'briancollins/vim-jst'
