@@ -22,8 +22,6 @@ autocmd VimResized * :wincmd =
 nnoremap <Leader>- :wincmd _<cr>:wincmd \|<cr>
 nnoremap <Leader>= :wincmd =<cr>
 
-" Run elixir tests from vim
-let g:extest_exunit_run_test_cmd = "mix test '%f:%l'"
-nnoremap <Leader>t :ExTestRunFile<CR>
-nnoremap <Leader>s :ExTestRunTest<CR>
-nnoremap <Leader>l :ExTestRunLast<CR>
+nmap <silent> <leader>s :TestNearest<CR>
+nmap <silent> <leader>t :TestFile<CR>
+nmap <silent> <leader>l :TestLast<CR>
